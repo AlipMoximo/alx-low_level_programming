@@ -1,9 +1,8 @@
 #include <stdio.h>
 /**
- *  * main - Prints all possible different combinations.
- *   *
- *    * Return: Always 0 (Success)
- *     */
+ * main - Prints all possible different combinations.
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 int i, e;
