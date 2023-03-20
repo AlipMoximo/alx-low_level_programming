@@ -5,35 +5,33 @@
  */
 int main(void)
 {
-int i, e, g;
-i = 48;
-e = 48;
-g = 48;
-while (e < 58)
+int a = '0';
+int b = '0';
+int c = '0';
+while (a <= '7')
 {
-i = 48;
-}
-while (i < 58)
+while (b <= '8')
 {
-g = 48;
-while (g < 58)
+while (c <= '9')
 {
-if (e != i && e != g && i != g && e < i && i < g)
+if (a < b && c)
 {
-putchar(e);
-putchar(i);
-putchar(g);
-if (i == 56 && e == 55 && g == 57)
+putchar(a);
+putchar(b);
+putchar(c);
+if (!(a == '7' && b == '8' && c == '9'))
 {
-break;
-}
 putchar(',');
 putchar(' ');
-g++;
 }
-i++;
 }
-e++;
+c++;
+}
+c = '0';
+b++;
+}
+b = '0';
+a++;
 }
 putchar('\n');
 return (0);
