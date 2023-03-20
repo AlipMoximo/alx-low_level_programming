@@ -14,7 +14,7 @@ while (b <= '8')
 {
 while (c <= '9')
 {
-if (a < b && c)
+if (a < b && b < c)
 {
 putchar(a);
 putchar(b);
