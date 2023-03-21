@@ -8,7 +8,7 @@ int_isslower(int c)
 {
 if (c >= 97 && c <= 122)
 {
-Return(1);
+return(1);
 }
-Return(0);
+return(0);
 }
