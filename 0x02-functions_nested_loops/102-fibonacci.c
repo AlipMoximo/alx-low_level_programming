@@ -12,9 +12,9 @@ d = 3;
 for (a = 0; a < 50; a++)
 {
 if (a != 49)
-printf("%1d, ", b);
+printf("%ld, ", b);
 else
-	printf("%1d\n", b);
+	printf("%ld\n", b);
 d = c + d;
 c = b + c;
 b = d - c;
