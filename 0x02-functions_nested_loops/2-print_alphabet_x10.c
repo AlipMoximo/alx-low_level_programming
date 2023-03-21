@@ -1,6 +1,8 @@
 #include "main.h"
-/**Prints 10 times of the alphabet in lowercase
- * Returns: Always 0 (Success)
+/**
+ * print_alphabet_x10 - Make alphabet x10 time
+ *
+ * Returns: void
  */
 void print_alphabet_x10(void)
 {
