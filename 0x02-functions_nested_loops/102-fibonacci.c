@@ -5,22 +5,19 @@
  */
 int main(void)
 {
-int a = 0;
-long b = 1, c = 2;
-while (a < 50)
+long int a, b, c, d;
+b = 1;
+c = 2;
+d = 3;
+for (a = 0; a < 50; a++)
 {
-if (a == 0)
-printf("%1d", b);
-else if (a == 1)
-printf(", %1d", c);
+if (a != 49)
+printf("%1d, ", b);
 else
-{
-c += b;
-b = c - b;
-printf(", %1d", c);
+	printf("%1d\n", b);
+d = c + d;
+c = b + c;
+b = d - c;
 }
-++a;
-}
-printf("\n");
 return (0);
 }
