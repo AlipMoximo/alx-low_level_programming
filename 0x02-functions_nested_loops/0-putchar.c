@@ -1,11 +1,18 @@
-#include<unistd.h>
+#include "main.h"
 /**
  * main-Entry point, no using standard library, print _putchar
  * Return:Always 0 (Success)
  */
 int main(void)
 {
-char m[] = "_putchar\n";
-write(1, m, sizeof(m));
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
 return (0);
 }
