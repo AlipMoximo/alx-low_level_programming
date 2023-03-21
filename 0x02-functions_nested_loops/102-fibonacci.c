@@ -5,15 +5,22 @@
  */
 int main(void)
 {
-int a, b = 0;
-while (a < 1024)
+int a = 0;
+long b = 1, c = 2;
+while (a < 50)
 {
-if ((a % 3 == 0) || (a % 5 == 0))
+if (a == 0)
+printf("%1d", b);
+else if (a == 1)
+printf(", %1d", c);
+else
 {
-b += a;
+c += b;
+b = c - b;
+printf(", %1d", c);
 }
-a++;
+++a;
 }
-printf("%d\n", b);
+printf("\n");
 return (0);
 }
