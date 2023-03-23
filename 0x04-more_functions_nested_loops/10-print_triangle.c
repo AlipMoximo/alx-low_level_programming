@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print-triangle-prints a triangle of squares according to parameters
+ * print_triangle-prints a triangle of squares according to parameters
  * @size: The sixe of the squares triangle
  * Return: empty
  */
