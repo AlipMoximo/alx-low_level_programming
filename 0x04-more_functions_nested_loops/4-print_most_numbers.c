@@ -1,21 +1,21 @@
 #include "main.h"
 /**
  * print_most_numbers-prints numbers 0 to 9 without 2 and 4
- * @c:value
+ * Return: Numbers 0 up to 9
  */
 void print_most_numbers(void)
 {
-int c = 0;
+int x = 0;
 
-for (; c <= 9; c++)
+for (; x <= 9; x++)
 {
-if (c == 2 || c == 4)
+if (x == 2 || x == 4)
 {
 continue;
 }
 else
 {
-_putchar(c + '0');
+_putchar(x + '0');
 }
 }
 _putchar('\n');
