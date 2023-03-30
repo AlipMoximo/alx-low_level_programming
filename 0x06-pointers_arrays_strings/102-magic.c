@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main-beginning point
+ * main-entry point
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -11,6 +11,7 @@ int *p;
 
 a[2] = 1024;
 p = &n;
+
 /*
  * write your line of code here...
  * Remember:
