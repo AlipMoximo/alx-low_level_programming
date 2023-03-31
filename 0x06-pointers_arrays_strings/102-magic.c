@@ -5,23 +5,15 @@
  */
 int main(void)
 {
-int n;
-int a[5];
-int *p;
+int a[] = { 4, 8, 98, 0, 12 };
+int *p = a;
 
-a[2] = 1024;
-p = &n;
+printf("a[0] = %d\n", *p);
+printf("a[1] = %d\n", *(p + 1));
 
-/*
- * write your line of code here...
- * Remember:
- * - you are not allowed to use a
- * - you are not allowed to modify p
- * - only one statement
- * - you are not allowed to code anything else than this line of code
- */
-*(p + 5) = 98;
-/* ...so that this prints 98\n */
-printf("a[2] = %d\n", a[2]);
+
+printf("a[3] = %d\n", *(p + 3));
+printf("a[4] = %d\n", *(p + 4));
+
 return (0);
 }
