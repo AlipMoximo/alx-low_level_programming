@@ -7,11 +7,11 @@
 int main(void)
 {
 char *s = "welcome"
-char *m;
-m = _strchr(s, 'l');
-if (m != NULL)
+char *f;
+f = _strchr(s, 'l');
+if (f != NULL)
 {
-printf("%s\n", m);
+printf("%s\n", f);
 }
 return (0);
 }
