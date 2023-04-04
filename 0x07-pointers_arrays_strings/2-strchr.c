@@ -11,7 +11,7 @@ int m = 0;
 for (; s[m] >= '\0'; m++
 {
 if (s[m] == c)
-return (&s[i]);
+return (&s[m]);
 }
 return (0);
 }
