@@ -1,19 +1,17 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * _strchr - Entry point
+ * @s: input
+ * @c:input
+ * Return: Always 0 (Success)
  */
-int main(void)
+char *_strchr(char *s, char c)
 {
-char *s = "hello";
-char *f;
-f = _strchr(s, 'l');
-if (f != NULL)
+int m = 0;
+for (; s[m] >= '\0'; m++
 {
-printf("%s\n", f);
+if (s[m] == c)
+return (&s[i]);
 }
 return (0);
 }
