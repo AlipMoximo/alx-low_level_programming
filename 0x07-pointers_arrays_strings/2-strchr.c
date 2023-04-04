@@ -6,12 +6,12 @@
  */
 int main(void)
 {
-char *s = "welcome";
-char *m;
+char *s = "hello";
+char *f;
 f = _strchr(s, 'l');
-if (m != NULL)
+if (f != NULL)
 {
-printf("%s\n", m);
+printf("%s\n", f);
 }
 return (0);
 }
