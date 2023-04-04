@@ -9,11 +9,11 @@
 int main(void)
 {
 char *s = "hello";
-char *f;
+char *c;
 f = _strchr(s, 'l');
-if (f != NULL)
+if (c != NULL)
 {
-printf("%s\n", f);
+printf("%s\n", c);
 }
 return (0);
 }
